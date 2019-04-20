@@ -1,4 +1,30 @@
 ---
 label: foo
 hide_body: false
-fields: []
+fields:
+- type: text
+  name: name
+  label: Name
+- type: textarea
+  name: text
+  label: Text
+- type: select
+  name: select
+  config:
+    source:
+      type: documents
+  label: Select
+- type: datetime
+  name: date
+  label: Date
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: Color
+- type: tag_list
+  label: Tags
+  name: tags
+- type: list
+  name: list
+  label: List
