@@ -10,6 +10,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - foo
   - landing-page
   - page
 - type: jekyll-posts
