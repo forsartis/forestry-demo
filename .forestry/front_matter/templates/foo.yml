@@ -28,3 +28,5 @@ fields:
 - type: list
   name: list
   label: List
+pages:
+- foo.html
